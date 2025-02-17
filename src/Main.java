@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Task # 3");
 
-        for (int i = 0; i <= 17; i = i + 2) {
+        for (int i = 0; i <= 17; i += 2) {
             System.out.println(i);
         }
 
@@ -27,19 +27,19 @@ public class Main {
 
         System.out.println("Task # 5");
 
-        for (int leapYear = 1904; leapYear <= 2096; leapYear = leapYear + 4) {
+        for (int leapYear = 1904; leapYear <= 2096; leapYear += 4) {
             System.out.println(leapYear + " год является високосным");
         }
 
         System.out.println("Task # 6");
 
-        for (int i = 7; i <= 98; i = i + 7) {
+        for (int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
 
         System.out.println("Task # 7");
 
-        for (int i = 1; i <= 512; i = i * 2) {
+        for (int i = 1; i <= 512; i *=  2) {
             System.out.println(i);
         }
 
